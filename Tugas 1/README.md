@@ -1,0 +1,1 @@
+Tugas 1 - Membuat EC2 Instance di AWS Academy
