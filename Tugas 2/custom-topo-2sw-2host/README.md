@@ -89,7 +89,7 @@ Pada gambar diatas, dapat dilihat di statistiknya, uji koneksi antara Host 1 den
 
 --------------------------------------------------------------------------------
 
-## Langkah 2
+## Langkah 3
 Jika ingin melihat gambar topology dari custom topology diatas, maka kita bisa gunakan Mininet + Ryu. Caranya adalah kita menggunakan <b>tmux</b> agar kita memiliki dua terminal dalam 1 layar. Gunakan perintah `tmux` untuk mulai menggunakan tmux. Lalu ketik di keyboard <b>`CTRL+B %`</b> untuk men-<i>split</i> terminal secara vertikal. Tampilan terminal akan seperti gambar berikut: 
 <img src="https://daptong.files.wordpress.com/2022/05/t2_tmux1-1.png"><br>
 
