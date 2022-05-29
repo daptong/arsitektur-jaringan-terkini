@@ -17,8 +17,6 @@ from ryu.lib.packet import ether_types, arp, tcp, ipv4
     h1 as client web
     h2 - h4 as web server
     h2 - h4 algorithm using round-robin
-    
-    sudo mn --controller=remote --topo=single,4 --mac
 """
 
 
