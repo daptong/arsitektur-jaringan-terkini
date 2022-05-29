@@ -42,6 +42,8 @@ def run():
     for web in ["h2", "h3", "h4"]:
         info("Web Server running in", web, net[web].cmd("python -m http.server 80 &"))
 
+    print('')    
+    
     net.start()
     net.pingAll()
 
