@@ -3,33 +3,48 @@
     <i>Tugas Akhir Mata Kuliah Arsitektur Jaringan Terkini</i>
 </div>
 
-# Getting Started
+# Table of Contents
+- [Getting Started](#getting-started)
+    - [Name and Tags](#name-and-tags)
+    - [OS Images](#os-images)
+    - [Instance Type and Key Pair](#instance-type-and-key-pair)
+    - [Edit Network Settings](#edit-network-settings)
+    - [Configure Storage](#configure-storage)
+    - [Launch Instance](#launch-instance)
+- [Connect to EC2 Instance](#connect-to-ec2-instance)
+    - [Mininet + OpenFlow Installation](#mininet--openflow-installation)
+    - [Flowmanager Installation](#flowmanager-installation)
+    - [Ryu Installation](#ryu-installation)
+- [Verify](#verify)
+- [Ready to Go](#ready-to-go)
+
+## Getting Started
 Untuk membuat EC2 Instance baru di AWS Academy, maka bukalah console Amazon EC2 di <a href="https://console.aws.amazon.com/ec2/">sini</a>, lalu klik <b>Launch Instance</b>. <br>Setelah itu, maka ikuti langkah-langkah berikut:
 
-## Name And Tags
+### Name and Tags
 <img src="https://media1.giphy.com/media/JihEZvKylB1JX1Zoqr/giphy.gif"><br>
 Masukan dengan nama <b>Tugas Akhir</b>.
 
-## OS Images
+### OS Images
 <img src="https://media2.giphy.com/media/UUOacW2eOIn8BjVZ9X/giphy.gif"><br>
 Setelah memasukkan nama, silahkan pilih OS Images, yaitu <b>Ubuntu Server 22.04 LTS</b> dengan arsitektur <b>64-bit (x86)</b>.
 
-## Instance Type and Key Pair
+### Instance Type and Key Pair
 <img src="https://media3.giphy.com/media/3o5yfFAYnUtiuZer8C/giphy.gif"><br>
 Untuk instance type, silahkan pilih <b>t2.medium</b> dan untuk key pair silahkan pilih <b>vockey</b>.
 
-## Edit Network Settings
+### Edit Network Settings
 <img src="https://media2.giphy.com/media/plMbO6cGbJJQlAbAgw/giphy.gif"><br>
 Pada bagian ini, silahkan klik checkbox untuk <b>Allow SSH, allow HTTP dan HTTPS</b>. Setelah itu, maka kita menambahkan dua group role dengan protokol TCP dengan cara mengklik tombol <b>Edit</b>. <br>- Untuk group role pertama akan diisi dengan <b>port 8080</b> dengan source type <b>anywhere</b>. <br>- Dan untuk group role kedua akan diisi dengan <b>port 8081</b> dengan source typenya yaitu <b>anywhere</b> juga.
 
-## Configure Storage
+### Configure Storage
 <img src="https://media1.giphy.com/media/jiLqn2cmrsxwAHnVAd/giphy.gif"><br>
 Dan pada bagian terakhir, yaitu Configure Storage, silahkan isi storagenya dengan nilai <b>30GB</b> dengan root volumenya yaitu <b>General Purpose SSD (gp3)</b>
 
 ###
 > Note: Silahkan memverifikasi apakah sudah mengikuti ketentuan yang diberikan.
 
-## Launch Instance
+### Launch Instance
 <img src="https://media3.giphy.com/media/mzgXm7LcZi52oh17tJ/giphy.gif"><br>
 Jika sudah memverifikasi semua bagian, maka silahkan klik tombol <b>Launch Instance</b> untuk membuat EC2 Instance baru.
 
