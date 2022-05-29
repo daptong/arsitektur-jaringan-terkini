@@ -114,7 +114,7 @@ Setelah menjalankan kedua perintah tersebut, maka tampilan akan berubah seperti 
 <img src="https://daptong.files.wordpress.com/2022/05/t2_tmux2-1.png"><br>
 
 Untuk melihat visualisasi topology-nya, silahkan pergi ke website EC2 Instance Details dan cari <b>Public IPv4 Address</b>. <b>Public IPv4 Address</b> akan seperti gambar berikut:<br>
-<img src="https://daptong.files.wordpress.com/2022/05/t2_ipv4.png"><br>
+<img src="https://daptong.files.wordpress.com/2022/05/t2_ipv4-1.png"><br>
 
 Salin alamat IPv4 tersebut, lalu buka tab baru di Browser. Lalu tambahkan port 8080 dan link pada IPv4 tersebut:
 
